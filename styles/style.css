@@ -3,14 +3,34 @@
     margin: 0;
     padding: 0;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+/* reusable CSS Properties */
 .container{
     max-width: 1200px;
     margin: auto;
 }
+.btn-common{
+    background-color: blue;
+    padding: 15px 6px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+}
+/* For Flex CSS Properties */
+
+/* Navbar Section CSS List*/
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 .navbar ul{
@@ -22,15 +42,34 @@
     list-style: none;
     color: brown;
     font-size: 17px;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+/* Banner Section CSS List */
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 250px;
 }
-.btn-common{
-    background-color: blue;
-    padding: 15px 6px;
+.banner-content{
     color: white;
-    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.banner-content h1{
+    font-size:65px;
     font-weight: bold;
-    font-size: 13px;
-    border: none;
+}
+.banner-content p{
+    font-size:18px;
 }
