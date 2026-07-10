@@ -73,3 +73,35 @@ h2{
 .banner-content p{
     font-size:18px;
 }
+/* Speaker Section CSS List */
+.speaker-grid-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}
+.speaker-grid-section .speaker-grid-section-card{
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    background-color: white;
+}
+.speaker-grid-section-card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.speaker-grid-section-card-details{
+    padding: 18px;
+}
+.speaker-grid-section-card-details-title{
+    color: blue;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 12px;
+}
+.speaker-grid-section-card-details h3{
+    margin-bottom: 5px;
+}
+.speaker-grid-section-card-details p{
+    color:blueviolet
+}
