@@ -1,20 +1,24 @@
 /* Universal tag */
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     padding: 20px;
 }
+
 /* reusable CSS Properties */
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.btn-common{
+
+.btn-common {
     background-color: blue;
     padding: 15px 6px;
     color: white;
@@ -22,33 +26,39 @@ h2{
     font-weight: bold;
     font-size: 13px;
     border: none;
+    cursor: pointer;
 }
+
 /* For Flex CSS Properties */
 
 /* Navbar Section CSS List*/
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
 }
-.navbar ul li{
+
+.navbar ul li {
     list-style: none;
     color: brown;
     font-size: 17px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
 }
+
 /* Banner Section CSS List */
-.banner{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner.jpg');
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner.jpg');
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,49 +69,152 @@ h2{
     align-items: center;
     gap: 250px;
 }
-.banner-content{
+
+.banner-content {
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
-.banner-content h1{
-    font-size:65px;
+
+.banner-content h1 {
+    font-size: 65px;
     font-weight: bold;
 }
-.banner-content p{
-    font-size:18px;
+
+.banner-content p {
+    font-size: 18px;
 }
+
 /* Speaker Section CSS List */
-.speaker-grid-section{
+.speaker-grid-section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
-.speaker-grid-section .speaker-grid-section-card{
+
+.speaker-grid-section .speaker-grid-section-card {
     border: 1px solid #e2e8f0;
     border-radius: 15px;
     background-color: white;
 }
-.speaker-grid-section-card img{
+
+.speaker-grid-section-card img {
     width: 100%;
     height: 300px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.speaker-grid-section-card-details{
+
+.speaker-grid-section-card-details {
     padding: 18px;
 }
-.speaker-grid-section-card-details-title{
+
+.speaker-grid-section-card-details-title {
     color: blue;
     font-weight: bold;
     display: block;
     margin-bottom: 12px;
 }
-.speaker-grid-section-card-details h3{
+
+.speaker-grid-section-card-details h3 {
     margin-bottom: 5px;
 }
-.speaker-grid-section-card-details p{
-    color:blueviolet
+
+.speaker-grid-section-card-details p {
+    color: blueviolet
+}
+
+/* Pricing Section CSS List */
+.Pricing h4 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.Pricing-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.Pricing-flex-card {
+    border: 1px solid #e2e8f0;
+    padding: 40px;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.Pricing-flex-pro-card {
+    border: 1px solid navy;
+    background-color: navy;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.Pricing-flex-card-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.Pricing-flex-pro-card-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.Pricing-flex-card-price {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 4px;
+}
+
+.Pricing-flex-pro-card-price {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 4px;
+}
+
+.Pricing hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Pricing-flex-card ul,
+.Pricing-flex-pro-card ul {
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.Pricing-flex-card ul li,
+.Pricing-flex-pro-card ul li {
+    padding: 2px;
+}
+
+.Pricing-flex-card button {
+    background-color: white;
+    color: blue;
+    width: 100%;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+.Pricing-flex-pro-card button {
+    background-color: navy;
+    color: white;
+    width: 100%;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 8px;
+    border-radius: 10px;
 }
