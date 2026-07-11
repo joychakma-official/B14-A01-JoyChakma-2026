@@ -20,7 +20,7 @@ h2 {
 
 .btn-common {
     background-color: blue;
-    padding: 15px 6px;
+    padding: 12px 32px;
     color: white;
     border-radius: 10px;
     font-weight: bold;
@@ -217,4 +217,35 @@ h2 {
     font-size: 15px;
     padding: 10px 8px;
     border-radius: 10px;
+}
+
+/* Footer Section Starts Here */
+footer{
+    height: 120px;
+    background-color: blueviolet;
+    margin-top: 30px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.footer-section-right-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer-section-line{
+    margin-top: 40px;
+    border: none;
+    border-top: 1px solid #acc9c6;
+}
+.footer-copyright{
+    text-align: center;
 }
