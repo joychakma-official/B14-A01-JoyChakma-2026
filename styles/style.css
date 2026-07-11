@@ -219,6 +219,32 @@ h2 {
     border-radius: 10px;
 }
 
+/* Why Attend DevConf 2026 Starts */
+.why-attend-devconf-2026-paragraph{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.why-attend-devconf-2026-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.why-attend-devconf-2026-grid-card{
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px 15px;
+}
+
+.why-attend-devconf-2026-grid-card-icon{
+    font-size: 40px;
+    color: rgb(57, 111, 212);
+}
+.why-attend-devconf-2026-grid-card-heading{
+    margin-bottom: 20px;
+}
+
 /* Footer Section Starts Here */
 footer{
     height: 120px;
